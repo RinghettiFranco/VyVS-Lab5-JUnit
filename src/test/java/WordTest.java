@@ -21,13 +21,13 @@ public class WordTest {
 
     @Test
     public void evenWordPairityTest(){
-        String result = word.wordPairity("hola");
+        String result = word.wordPairity("holas");
         assertEquals("Par",result);
     }
 
     @Test
     public void oddWordPairityTest(){
-        String result = word.wordPairity("holanda");
+        String result = word.wordPairity("holandas");
         assertEquals("Impar",result);
     }
 
